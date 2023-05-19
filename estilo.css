@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Poppins,Arial;
+  }
+
+  body{
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #f9f9f9 0%, #dcfffd 100%);
+    height: 100vh;
+    font-size: 1.1em;
+    
+  }
+  body,fieldset{
+    padding: 24px;
+    border-radius: 24px;
+  }
+  
+  h1{
+    text-align: center;
+  }
+
+  form{
+    width: 80%;
+    margin: 0 auto;
+  }
+  label{
+       display: inline-block;
+       min-width: 120px;	
+       vertical-align: middle;
+  }
+  form p{
+    margin-left: 12px;
+    margin-bottom: 8px;
+  }
+
+  input{
+    padding: 4px;
+    border-radius: 4px;
+  }
+  input[type="submit"],input[type="reset"]{
+    margin-top: 8px;
+    padding: 8px 10px;
+  }
+
+  .lista_botoes{
+    text-align: center;
+  }
+
+
+
+/* CSS */
+.button-30 {
+
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  color: #36395A;
+  cursor: pointer;
+  height: 48px;
+  padding-left: 16px;
+  padding-right: 16px;
+  transition-duration: .050s;
+   font-size: 18px;
+}
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-1px);
+}
+
+.button-30:active {
+    transform: translateY(px);
+}
